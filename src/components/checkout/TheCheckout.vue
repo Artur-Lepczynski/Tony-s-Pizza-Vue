@@ -19,7 +19,7 @@
           </div>
           <div class="user-info-item">
             <p>Address:</p>
-            <p>{{ userData.address }}</p>
+            <p>{{ userData.deliveryAddress }}</p>
           </div>
 
           <div class="payment">
