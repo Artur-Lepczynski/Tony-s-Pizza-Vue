@@ -127,7 +127,7 @@ const store = createStore({
     order(state, payload) {
       state.ordered = true;
       state.paymentMethod = payload.paymentMethod;
-      state.deliveryTime = new Date().getTime() + 1000 * 60 * 60 * 0.25;
+      state.deliveryTime = new Date().getTime() + 1000 * 60 * 60;
     },
     reset(state) {
       state.ordered = false;

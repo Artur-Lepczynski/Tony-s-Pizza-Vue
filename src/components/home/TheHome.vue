@@ -40,7 +40,7 @@
       </div>
 
       <div class="description-item">
-        <i className="fa-solid fa-pizza-slice"></i>
+        <i className="fa-solid fa-truck-fast"></i>
         <div>
           <h3>Fast delivery</h3>
             <p>
@@ -54,7 +54,7 @@
       </div>
 
       <div class="description-item">
-        <i className="fa-solid fa-pizza-slice"></i>
+        <i className="fa-solid fa-coins"></i>
         <div>
           <h3>Affordable prices</h3>
             <p>

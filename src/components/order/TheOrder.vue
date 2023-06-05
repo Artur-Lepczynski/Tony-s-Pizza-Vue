@@ -1,7 +1,7 @@
 <template>
   <base-page>
     <base-card class="main-wrapper">
-      <h2>Thanks for you order!</h2>
+      <h2>Thanks for your order!</h2>
       <!-- timer -->
       <div class="delivery" v-if="!delivered">
         <p>Your order will be delivered in:</p>

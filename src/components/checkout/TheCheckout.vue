@@ -4,7 +4,7 @@
       <h2>Checkout</h2>
       <div class="info">
         <div class="user-info">
-          <h2>Your Information</h2>
+          <h2>Your information</h2>
           <div class="user-info-item">
             <p>Name:</p>
             <p>{{ userData.name }}</p>
@@ -18,7 +18,7 @@
             <p>{{ userData.email }}</p>
           </div>
           <div class="user-info-item">
-            <p>Address:</p>
+            <p>Delivery Address:</p>
             <p>{{ userData.deliveryAddress }}</p>
           </div>
 
@@ -81,7 +81,7 @@
           </div>
         </div>
       </div>
-      <base-button type="button" look="primary" :disabled="orderedItems.length <= 0" @click="handleOrder">Place Order</base-button>
+      <base-button type="button" look="primary" :disabled="orderedItems.length <= 0" @click="handleOrder">Place order</base-button>
     </base-card>
   </base-page>
 </template>
